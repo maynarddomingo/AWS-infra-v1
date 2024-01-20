@@ -1,6 +1,6 @@
 provider "aws" {
   region = var.aws_region
-  version = "3.74.2"
+  #version = "3.74.2"
 }
 
 resource "aws_vpc" "main" {
